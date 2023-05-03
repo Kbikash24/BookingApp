@@ -1,5 +1,5 @@
 body { 
-    margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+margin-top: 0;/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
   }
   
   body::before {
@@ -17,42 +17,14 @@ body {
   .box {
     background-color: lightblue;
     border: 1px solid blue;
-    min-height: 50px;
+    min-height: 40px;
     font-size: 2rem;
     text-align: center;
   }
   
-  @media (min-width: 576px) {
-    body::before {
-      content: "SM";
-    }
-  }
   
-  @media (min-width: 768px) {
-    body::before {
-      content: "MD";
-    }
-  }
-  
-  @media (min-width: 992px) {
-    body::before {
-      content: "LG";
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    body::before {
-      content: "XL";
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    body::before {
-      content: "XXL";
-    }
-  }
   .container{
-    width: 45%;
+    width: 35%;
     outline-style:solid;
     outline: auto;
     color: rgb(231, 10, 10);
@@ -61,9 +33,6 @@ body {
     
   
   }
-    
-
-    
   
  .form-floating{
   margin-top: 10px;
